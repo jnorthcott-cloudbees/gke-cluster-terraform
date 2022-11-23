@@ -1,6 +1,5 @@
 variable "project_id" {
   type = string
-  default = "jnorthcott2022"
 }
 
 variable "environment_lable" {
@@ -15,7 +14,6 @@ variable "owner_label"{
 
 variable "user_label" {
   type = string
-  default = "jnorthcott"
 }
 
 variable "region" {
@@ -30,7 +28,6 @@ variable "cluster_count" {
 
 variable "cluster_base_name" {
     type = string
-    default = "jnorthcott-demo"
 }
 
 variable "initial_node_count" {
